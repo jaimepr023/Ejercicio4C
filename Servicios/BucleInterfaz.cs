@@ -6,10 +6,23 @@ using System.Threading.Tasks;
 
 namespace Ejercicio4C.Servicios
 {
+    /// <summary>
+    /// Interfaz donde se encuentra nuestros metodos bucles
+    /// <author>jpr-301023</author>
+    /// </summary>
     internal interface BucleInterfaz
     {
-       public string bucleOperacion();
+        /// <summary>
+        /// Metodo que te pregunta si quieres seguir operando
+        /// <author>jpr-301023</author>
+        /// </summary>
+        /// <returns>string</returns>
+        public string bucleOperacion();
 
+        /// <summary>
+        /// Metodo que te opera nuevamente la operacion anterior con un nuevo numero
+        /// <author>jpr-301023</author>
+        /// </summary>
         public void menuFinal();
 
     }
